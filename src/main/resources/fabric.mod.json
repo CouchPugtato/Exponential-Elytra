@@ -3,7 +3,7 @@
   "id": "exponential_elytra",
   "version": "${version}",
   "name": "Exponential Elytra",
-  "description": "Scales current Elytra velocity on each successful firework boost before vanilla acceleration.",
+  "description": "Makes firework and Riptide boosts compound with existing momentum without replacing vanilla flight controls.",
   "license": "MIT",
   "environment": "*",
   "entrypoints": {

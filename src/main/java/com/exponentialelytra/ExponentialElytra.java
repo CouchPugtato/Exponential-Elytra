@@ -17,7 +17,11 @@ public final class ExponentialElytra implements ModInitializer {
                 FabricLoader.getInstance().getConfigDir().resolve("exponential-elytra.json"),
                 LOGGER
         );
-        LOGGER.info("Exponential Elytra initialized with rocket velocity multiplier {}", config.rocketVelocityMultiplier());
+        LOGGER.info(
+                "Exponential Elytra initialized with firework multiplier {} and Riptide multiplier {}",
+                config.rocketVelocityMultiplier(),
+                config.riptideVelocityMultiplier()
+        );
     }
 
     public static ExponentialElytraConfig config() {
