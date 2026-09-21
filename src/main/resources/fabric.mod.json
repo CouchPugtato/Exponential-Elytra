@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "exponential_elytra",
+  "version": "${version}",
+  "name": "Exponential Elytra",
+  "description": "Scales current Elytra velocity on each successful firework boost before vanilla acceleration.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exponentialelytra.ExponentialElytra"
+    ]
+  },
+  "mixins": [
+    "exponential-elytra.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "=1.21.10",
+    "java": ">=21"
+  }
+}
