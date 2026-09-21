@@ -3,6 +3,7 @@
   "package": "com.exponentialelytra.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "FireworkRocketEntityMixin",
     "FireworkRocketItemMixin",
     "TridentItemMixin"
   ],

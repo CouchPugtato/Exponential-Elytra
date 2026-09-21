@@ -2,7 +2,7 @@
 
 Exponential Elytra is a small, server-authoritative Fabric mod for Minecraft Java Edition 1.21.10. It removes the practical speed limit from Elytra flight by making firework and Riptide boosts compound with the momentum you already have.
 
-Instead of every boost pushing you toward the same practical top speed, each successful boost builds on your current velocity. Fireworks multiply current Elytra velocity before applying vanilla rocket thrust, while Riptide scales existing momentum immediately before vanilla adds its directional Riptide impulse.
+Instead of every boost pushing you toward the same practical top speed, each successful boost builds on your current velocity. Fireworks multiply current Elytra velocity before applying vanilla rocket thrust, while Riptide scales existing momentum immediately before vanilla adds its directional Riptide impulse. Attached rockets are also prevented from reducing the player's speed back toward vanilla's target velocity; their normal acceleration and steering are retained whenever they would increase speed.
 
 With the default multiplier of `1.10`, a velocity of 40 blocks per second becomes 44 blocks per second before vanilla acceleration is applied. Every component (X, Y, and Z) is scaled by the same amount, so the mod preserves the current flight direction and does not replace vanilla movement, steering, or camera behavior.
 
